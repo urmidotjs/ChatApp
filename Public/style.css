@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  #rooms-list, #chat-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 500px;
+    min-height: 100px;
+    background-color: #fff;
+    overflow-y: auto;
+  }
+  
+  .room, .message {
+    padding: 10px;
+    margin: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  #chat-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  #chat-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #chat-input button:hover {
+    background-color: #0056b3;
+  }
+  
