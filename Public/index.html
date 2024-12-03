@@ -7,17 +7,23 @@
   <title>Chat Room App</title>
 </head>
 <body>
-  <h1>Create or Join a Chat Room</h1>
-  <div id="create-room">
-    <input type="text" id="room-name" placeholder="Enter room name" />
-    <button id="create-room-btn">Create Room</button>
+  <div class="header">
+    <h1>ChatNest</h1>
   </div>
-  <h2>Available Rooms</h2>
-  <div id="room-list"></div> <!-- Corrected ID -->
 
-  <!-- Import socket.io -->
+  <div class="content">
+    <h2>Create and Join Chat Rooms</h2>
+
+    <div id="create-room" class="room-box">
+      <input type="text" id="room-name" placeholder="Enter room name" />
+      <button id="create-room-btn">Create Room</button>
+    </div>
+
+    <h3>Available Rooms</h3>
+    <div id="room-list" class="room-list-box"></div>
+  </div>
+
   <script src="/socket.io/socket.io.js"></script>
-  <!-- Include custom JS logic -->
   <script src="script.js"></script>
 </body>
 </html>
